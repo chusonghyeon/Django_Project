@@ -34,8 +34,13 @@
 - 참조 [백엔드를 위한 DJANGO RESTFRMEWORK with 파이썬]
 
 
+# Django-ML모델 생성해서 RestAPI로 호출
+- Iris데이터 활요하여 모델 예측
+- Django RestFrameWork를 활용하여 API값 호출
+
+
 # Django의 RestFrameWork를 활용하여 React연동
 
 - Django의 RestFrameWork를 구현
 - React활용하여 API주소 호출
-- API값 
+- API값 및 React 구조 확인 
