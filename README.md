@@ -1,4 +1,6 @@
-# Django_Project Pragmatic Django를 활용한 Pragmatic구현 및 Docker로 배포실습, AWS서비스 
+# Django-All-Project
+
+## Django_Project Pragmatic Django를 활용한 Pragmatic구현 및 Docker로 배포실습, AWS서비스 
 
 
 1. 실습환경 : VScode 
@@ -26,7 +28,7 @@
 - 참고 [인프런 : 작정하고 장고! Django로 Pinterest 따라만들기 : 바닥부터 배포까지]
 
 
-# Django-todoapp-example 및 Django-RestFrameWork 실습 및 MySQL연동으로 Model설정
+## Django-todoapp-example 및 Django-RestFrameWork 실습 및 MySQL연동으로 Model설정
 
 - 기본적인 Django프로젝트 실행
 - TODO형식의 프로젝트 
@@ -34,12 +36,12 @@
 - 참조 [백엔드를 위한 DJANGO RESTFRMEWORK with 파이썬]
 
 
-# Django-ML모델 생성해서 RestAPI로 호출
+## Django-ML모델 생성해서 RestAPI로 호출
 - Iris데이터 활요하여 모델 예측
 - Django RestFrameWork를 활용하여 API값 호출
 
 
-# Django의 RestFrameWork를 활용하여 React연동
+## Django의 RestFrameWork를 활용하여 React연동
 
 - Django의 RestFrameWork를 구현
 - React활용하여 API주소 호출
