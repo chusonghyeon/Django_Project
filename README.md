@@ -32,3 +32,10 @@
 - TODO형식의 프로젝트 
 - Django 라이브러리 RestFrameWork 활용 MySQL연동 성공 
 - 참조 [백엔드를 위한 DJANGO RESTFRMEWORK with 파이썬]
+
+
+# Django의 RestFrameWork를 활용하여 React연동
+
+- Django의 RestFrameWork를 구현
+- React활용하여 API주소 호출
+- API값 
