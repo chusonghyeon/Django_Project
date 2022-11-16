@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+absl-py = "==1.2.0"
+alembic = "==1.8.1"
+altgraph = "==0.17.3"
+anyio = "==3.6.1"
+argon2-cffi = "==21.3.0"
+argon2-cffi-bindings = "==21.2.0"
+asgiref = "==3.5.2"
+asttokens = "==2.0.8"
+astunparse = "==1.6.3"
+async-generator = "==1.10"
+attrs = "==22.1.0"
+backcall = "==0.2.0"
+beautifulsoup4 = "==4.11.1"
+bleach = "==5.0.1"
+blis = "==0.7.8"
+cachetools = "==5.2.0"
+catalogue = "==2.0.7"
+catboost = "==1.0.6"
+category-encoders = "==2.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

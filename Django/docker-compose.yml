@@ -1,0 +1,59 @@
+version: "3.7" # 버전은 선택
+services: # 서비스 작성
+  nginx:
+    image: nginx:1.19.5 # nginx버전 작성
+    networks: # 네트워크 작성
+      - network
+    volumes: # 장고프로젝트 및 정적이미지를 경로 지정
+      - /homw/django_course/nginx.conf:/etc/nginx/nginx.conf
+      - static-volume:/data/static
+      - media-volume:/data/media
+    ports:
+      - 80:80
+  django_container_gunicorn: # 장고 컨테이너 이름 작성
+    image: django_test_image:4 # 이미지 이름
+    networks:
+      - network
+    volumes: # 정적 이미지 작성
+      - static-volume:home/pragmatic/staticfiles
+      - media-volume:home/pragmatic/media
+    secrets:
+      - MYSQL_PASSWORD
+      - DJANGO_SECRET_KEY
+  mariadb: # 마리아DB연동 작업
+    image: mariadb:10.5
+    networks:
+      - network
+    volumes:
+      - maria-database:/var/lib/mysql # 마리아 DB위치 docker-hub에 마리아 DB위치 확인
+    secrets:
+      - MYSQL_PASSWORD
+      - MYSQL_ROOT_PASSWORD
+
+    environment: # 마리아 DB 설정
+      MYSQL_DATABASE: django
+      MYSQL_USER: django
+      MYSQL_PASSWORD_FILE: /run/serets/MYSQL_PASSWORD
+      MYSQL_ROOT_PASSWORD_FILE: /run/serets/MYSQL_ROOT_PASSWORD
+
+networks: # 네트워크 설정
+  network:
+
+volumes: # 볼륨 설정
+  static-volume:
+  media-volume:
+  maria-database:
+
+secrets:
+  DJANGO_SECRET_KEY:
+    external: true
+  MYSQL_PASSWORD:
+    external: true
+  MYSQL_ROOT_PASSWORD:
+    external: true
+      
+      
+      
+
+
+
