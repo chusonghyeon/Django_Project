@@ -31,18 +31,27 @@
 ## 2. Django-todoapp-example 및 Django-RestFrameWork 실습 및 MySQL연동으로 Model설정
 
 - 기본적인 Django프로젝트 실행
+
 - TODO형식의 프로젝트 
+
 - Django 라이브러리 RestFrameWork 활용 MySQL연동 성공 
+
 - 참조 [백엔드를 위한 DJANGO RESTFRMEWORK with 파이썬]
 
 
 ## 3. Django-ML모델 생성해서 RestAPI로 호출
 - Iris데이터 활요하여 모델 예측
+
 - Django RestFrameWork를 활용하여 API값 호출
 
+- 참조 [백엔드를 위한 DJANGO RESTFRMEWORK with 파이썬]
 
 ## 4. Django의 RestFrameWork를 활용하여 React연동
 
 - Django의 RestFrameWork를 구현
+
 - React활용하여 API주소 호출
+
 - API값 및 React 구조 확인 
+
+- 참조 [백엔드를 위한 DJANGO RESTFRMEWORK with 파이썬]
