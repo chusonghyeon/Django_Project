@@ -1,5 +1,7 @@
 # Django-All-Project
 
+-> 개인역량 강화를 위한 Django프레임워크를 활용한 기초적인 문법과 RestFrameWork의 이해
+
 ## 1. Django_Project Pragmatic Django를 활용한 Pragmatic구현 및 Docker로 배포실습, AWS서비스 
 
 
